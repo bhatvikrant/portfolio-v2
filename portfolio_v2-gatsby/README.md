@@ -1,9 +1,9 @@
 ## Tech used:
 
-[cloudinary - for storing images online via strapi](https://cloudinary.com/)
-[strapi-provider-upload-cloudinary - npm library to connect cloudinary to strapi](https://www.npmjs.com/package/strapi-provider-upload-cloudinary)
-[Formspree - for accepting form data in website](https://formspree.io/)
-[Twitter card validator - tool to check twitter card](https://cards-dev.twitter.com/validator)
+- [cloudinary - for storing images online via strapi](https://cloudinary.com/)
+- [strapi-provider-upload-cloudinary - npm library to connect cloudinary to strapi](https://www.npmjs.com/package/strapi-provider-upload-cloudinary)
+- [Formspree - for accepting form data in website](https://formspree.io/)
+- [Twitter card validator - tool to check twitter card](https://cards-dev.twitter.com/validator)
 
 ## Setup Notes
 
