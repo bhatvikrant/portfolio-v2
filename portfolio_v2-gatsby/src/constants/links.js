@@ -3,26 +3,16 @@ import { Link } from "gatsby"
 const data = [
   {
     id: 1,
-    text: "home",
-    url: "/",
-  },
-  {
-    id: 2,
     text: "about",
     url: "/about/",
   },
   {
-    id: 3,
+    id: 2,
     text: "projects",
     url: "/projects/",
   },
   {
-    id: 4,
-    text: "blog",
-    url: "/blog/",
-  },
-  {
-    id: 5,
+    id: 3,
     text: "contact",
     url: "/contact/",
   },
@@ -40,6 +30,15 @@ const tempLinks = data.map(link => {
 export default ({ styleClass }) => {
   return (
     <ul className={`page-links ${styleClass ? styleClass : ""}`}>
+      <li>
+        <a
+          href="https://underreacted.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          blog
+        </a>
+      </li>
       {tempLinks}
     </ul>
   )
