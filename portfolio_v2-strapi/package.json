@@ -1,0 +1,38 @@
+{
+  "name": "portfolio-v-2",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "<0.20.0",
+    "sqlite3": "^5.0.0",
+    "strapi": "3.1.6",
+    "strapi-admin": "3.1.6",
+    "strapi-connector-bookshelf": "3.1.6",
+    "strapi-plugin-content-manager": "3.1.6",
+    "strapi-plugin-content-type-builder": "3.1.6",
+    "strapi-plugin-email": "3.1.6",
+    "strapi-plugin-upload": "3.1.6",
+    "strapi-plugin-users-permissions": "3.1.6",
+    "strapi-provider-upload-cloudinary": "^3.1.6",
+    "strapi-utils": "3.1.6"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3a285208-7759-4bab-9782-4558ce66a738"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
